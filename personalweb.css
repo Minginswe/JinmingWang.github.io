@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    height: 1500px;
+} */
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.m {
+    float: left;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 15px;
+    width: 40px;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    margin: 20px;
+    line-height: 70px;
+}
+
+.socialMedia {
+    float: right;
+    margin-right: 50px;
+    width: 32px;
+    margin-top: 19px;
+}
+
+.icon {
+    margin-right: 100px;
+}
+
+.profile {
+    float: left;
+    width: 50%;
+    height: 700px;
+    background-color: #000000;
+    color: white;
+    /* border: 2px solid pink; */
+}
+
+.profile .pro-text {
+    position: relative;
+    margin: 0 auto;
+    padding: 50px;
+    padding-top: 100px;
+    height: 350px;
+}
+.pro-text span {
+    position: absolute;
+    width: 55px;
+    height: 25px;
+    top: 350px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10ex;
+    background-color: white;
+}
+
+.profile .anime img {
+    width: 100%;
+    height: 200px;
+}
+
+.mypic {
+    float: right;
+    width: 50%;
+    height: 700px;
+    background-image: url(images/Group\ 1.png);
+}
+
+.mypic img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 25px;
+}
+
+.box {
+    width: 100%;
+    height: 570px;
+}
+.text1 {
+    float: left;
+    padding-top: 70px;
+    height: 280px;
+}
+
+.box .nmd {
+    position: relative;
+    margin-left: 100px;
+    /* left: 100px; */
+    width: 50%;
+}
+.box span {
+    position: absolute;
+    width: 55px;
+    height: 25px;
+    top: 270px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10ex;
+    background-color: black;
+}
+.box span a {
+    color: white;
+}
+/* .hobbies {
+    float: right;
+} */
+.text1 h2 {
+    margin-bottom: 20px;
+}
+.hobbies {
+    position: relative;
+}
+.hobbies span {
+    position: absolute;
+    width: 110px;
+    height: 27px;
+    top: 300px;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 10ex;
+    background-color: black;
+}
+
+.bottom img {
+    width: 100%;
+}
